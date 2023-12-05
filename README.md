@@ -1,21 +1,37 @@
 # Компьютерные сети (семинары)
 
-## Урок 6. Основы компьютерных сетей. Транспортный уровень. UDP и TCP
+## Урок 7. NAT. GRE
 
-1. Добавил комнаты в чате
+1. Cтраницы по HTTP и HTTPS по публичному адресу Router3 в веб-браузере клиентов Office3 (с РС1 и РС0)
 
-2. Имитация работы чата
+    PC0: port 80
+    <img src="hw-7/pc0_80.png" alt="pc0-80" widt="1024">
 
-    <img src="client.png" alt="chat" width="800px"> 
+    PC0: port 443
+    <img src="hw-7/pc0_443.png" alt="pc0-443" widt="1024">
 
-    Лог сервера
+    PC1: port 80
+    <img src="hw-7/pc1_80.png" alt="pc1-80" widt="1024">
 
-    <img src="server.png" alt="server" width="800px">
+    PC1: port 443
+    <img src="hw-7/pc1_443.png" alt="pc1-443" widt="1024">
 
-3. Лог netstat
+    Вывод show ip nat translation c Router1
 
-    <img src="netstat.png" alt="netstat" width="800px">
+    <img src="hw-7/r1_nat_transl.png" alt="r1_nat" widt="1024">
 
-4. Лог Wireshark
+2. Трейс с Laptop0 до Server2
 
-    <img src="wireshark.png" alt="wireshark" width="800px">
+    <img src="hw-7/gre.png" alt="trace" widt="1024">
+
+3. Публичный IP до и после подключения через VPN
+
+    <img src="hw-7/pub_ip.png" alt="ip" widt="1024">
+
+    Вывод команды ip addr на сервере:
+
+     <img src="hw-7/ip-a-after_ovpn.png" alt="ip a" widt="1024">
+
+     Вывод команды ifconfig на клиенте:
+
+     <img src="hw-7/client-int.png" alt="ip a" widt="1024">
