@@ -1,21 +1,26 @@
 # Компьютерные сети (семинары)
 
-## Урок 6. Основы компьютерных сетей. Транспортный уровень. UDP и TCP
+## Урок 8. Основы HTTP/HTTPS и DNS
 
-1. Добавил комнаты в чате
+1. Cкриншоты открытых http и https сайтов по одному доменному имени
+  
+    <image src="./hw-8/dns.png" width="1024px">
 
-2. Имитация работы чата
+    Таблица NAT трансляций с Router3
 
-    <img src="client.png" alt="chat" width="800px"> 
+    <image src="./hw-8/router-3.png" width="1024px">
 
-    Лог сервера
+    Таблица маршрутизации с Router0
 
-    <img src="server.png" alt="server" width="800px">
+    <image src="./hw-8/router-0.png" width="1024px">
 
-3. Лог netstat
+2. Let's Encrypt с OpenVPN
 
-    <img src="netstat.png" alt="netstat" width="800px">
+    <image src="./hw-8/htpps-openvpn.png" width="1024px">
 
-4. Лог Wireshark
+3. Let's Encrypt с Nginx
 
-    <img src="wireshark.png" alt="wireshark" width="800px">
+    На примере сайта для итоговой работы по курсу "Web разработка на Python"
+    <image src="./hw-8/https-nginx.png" width="1024px">
+
+    <image src="./hw-8/ssl-nginx.png" width="1024px">
